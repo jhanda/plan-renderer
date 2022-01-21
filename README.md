@@ -28,7 +28,7 @@ Bid*.  Configuration can be found under System Settings > Other > Plan Renderer
 
 ## Installation
 
-- Download the `.jar` file in [releases](https://github.com/jhanda/plan-renderer/releases/tag/4.0.0) and
+- Download the `.jar` file in [releases](https://github.com/jhanda/plan-renderer/releases/tag/4.0.1) and
   deploy it into Liferay.
 
 or
