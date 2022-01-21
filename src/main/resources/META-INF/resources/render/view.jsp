@@ -153,9 +153,12 @@
 
                     <div class="align-items-center d-flex mt-3 product-detail-actions">
                         <commerce-ui:add-to-cart
+                                alignment="left"
                                 CPCatalogEntry="<%= cpCatalogEntry %>"
+                                inline="<%= true %>"
                                 namespace="<%= liferayPortletResponse.getNamespace() %>"
                                 options='<%= "[]" %>'
+                                size="lg"
                         />
 
                         <commerce-ui:add-to-wish-list
@@ -163,7 +166,6 @@
                                 large="<%= true %>"
                         />
                     </div>
-
                 </c:otherwise>
             </c:choose>
         </div>
